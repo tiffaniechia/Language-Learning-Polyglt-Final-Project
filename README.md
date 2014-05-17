@@ -46,7 +46,7 @@ In this way **POLYGLT** provides a social network for immersive language learnin
 * CSS 3
 * SCSS
 * HTML 5
-* PostgreSQL
+* PostgreSQL 
 
 ##### In Production:
 
