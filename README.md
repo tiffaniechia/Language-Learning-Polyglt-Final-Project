@@ -14,11 +14,27 @@ Using the devise gem users sign up and log in, create a language profile to sele
 
 The user can then message one of their matches and book a 1-to-1 lesson with a selected topic, utilising the bookable and mailboxer gems. Each chosen topic has a selection of questions as prompts for each lesson.
 
+![screenshot](app/assets/images/user_details.png)
+
+In order to keep achieving new topics, users are invited to chat only on topics that the other user hasn't yet tried.
+
+![screenshot](app/assets/images/user_topics_information.png)
+
+The best way to grow to constantly seek feedback. The mandatory reviews from after a video chat session will go here and help the user to keep track of his or her own progress as well as help anyone that ones to have a chat with that user to know what to focus on in order to help each other.
+
+![screenshot](app/assets/images/user_reviews.png)
+
 ![screenshot](app/assets/images/user_messages.png)
 
 ![screenshot](app/assets/images/user_booking.png)
 
+User can check their inbox and suss out whether or not they are interested in having a session with the invitee.
+
+
 ![screenshot](app/assets/images/messages.png)
+
+
+
 
 The 1-to-1 lessons use live video chat via built in webcam and realtime text chat. This is achieved through websockets and SimpleWebRTC. This allows the use of a TURN server and removes the need for increased server hosting by **POLYGLT**. The use of SimpleWebRTC and a TURN server allows peer-to-peer connections while maintaining a secure connection.
 
@@ -29,7 +45,24 @@ During the 1-to-1 lesson, half of the lesson's allocated time is designated to s
 
 After each lesson, users rate each others progress and receive their own ratings. These rating can be seen by all users and determines whether the topic has been completed by that user.
 
+
+
 The app also ensures that features that ensures a smooth user experience, including Google Translate API, a mailbox system, and an appointment tracker.
+
+
+Appointment tracker:
+
+
+![screenshot](app/assets/images/future_appointments.png)
+
+![screenshot](app/assets/images/past_appointments.png)
+
+
+Ability to change settings:
+
+
+![screenshot](app/assets/images/user_settings.png)
+
 
 In this way **POLYGLT** provides a social network for immersive language learning.
 
@@ -46,7 +79,7 @@ In this way **POLYGLT** provides a social network for immersive language learnin
 * CSS 3
 * SCSS
 * HTML 5
-* PostgreSQL 
+* PostgreSQL
 
 ##### In Production:
 
